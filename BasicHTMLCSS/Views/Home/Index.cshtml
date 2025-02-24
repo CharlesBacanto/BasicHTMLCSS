@@ -85,12 +85,136 @@
     <a class="page-num">1</a>
     <a class="page-num">2</a>
     <a class="page-num">3</a>
+    <a class="page-num">4</a>
+    <a class="page-num">5</a>
     <button class="next-btn">
         Next
     </button>
     <style>
         .back-btn{
+            border: solid;
+            border-radius:2px;
+            padding: 6px 2px;
+            background-color:lightgray;
+            margin-left:5px;
+            vertical-align:central;
+            border-width:1px;
+        }
+        .next-btn{
+            border: solid;
+            border-radius:2px;
+            padding: 6px 4px;
+            background-color:lightgray;
+            margin-right:2px;
+            vertical-align:central;
+            border-width:1px;
+        }
+        .page-num{
+            color:darkviolet;
+            margin-right:3px;
+            vertical-align:central;
+        }
+    </style>
+</div>
+<div>
+    <p>Stretch</p>
+    <button class="stretch-btn">
+        Stretch
+    </button>
+    <style>
+        .stretch-btn{
+            background-color:green;
+            color:white;
+            font-weight:bold;
+            padding:4px 6px;
+            cursor:pointer;
+            transition: padding 1s;
+            border:none;
+        
+        }
+        .stretch-btn:hover{
+            
+            padding:20px 40px;
+        }
+    </style>
+</div>
 
+<div>
+    
+    <p>
+    3D Click
+    </p>
+    <button class="shadow-btn">Shadow</button>
+    <style>
+        .shadow-btn{
+            background-color: green;
+            border: none;
+            padding: 6px 10px;
+            font-weight:bold;
+            color:white;
+            box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+            cursor:pointer;
+            transition: margin-top 0.1s, margin-left 0.1s, box-shadow 0.1s;
+        }
+        .shadow-btn:active{
+            margin-top: 5px;
+            margin-left: 5px;
+            box-shadow:none;
+        }
+    </style>
+</div>
+<div>
+    <p>Margin and Padding</p>
+    <button class="btn-1">One</button>
+    <button class="btn-2">Two</button>
+    <button class="btn-3">Three</button>
+    <style>
+        .btn-1{
+            color:white;
+            font-weight:bold;
+            background-color:green;
+            border:none;
+            padding: 4px 8px;
+            margin-left:5px;
+            margin-right:5px;
+            transition: padding 0.15s, margin-left 0.15s, margin-right 0.15s;
+        }
+        .btn-1:hover{
+            padding: 4px 12px;
+            margin-left: 1px;
+            margin-right: 1px;
+        }
+        .btn-2{
+            color:white;
+            font-weight:bold;
+            background-color:green;
+            border:none;
+            padding: 4px 8px;
+            margin-left: 5px;
+            margin-right: 5px;
+            transition: padding 0.15s, margin-left 0.15s, margin-right 0.15s;
+        }
+
+        .btn-2:hover {
+            padding: 4px 12px;
+            margin-left: 1px;
+            margin-right: 1px;
+        }
+        .btn-3{
+            color:white;
+            font-weight:bold;
+            background-color:green;
+            border:none;
+            padding: 4px 8px;
+            margin-left: 5px;
+            margin-right: 5px;
+            transition: padding 0.15s, margin-left 0.15s, margin-right 0.15s;
+        }
+
+        .btn-3:hover {
+            padding: 4px 12px;
+            margin-left: 1px;
+            margin-right: 1px;
         }
     </style>
 </div>

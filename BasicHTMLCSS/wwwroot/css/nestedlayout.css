@@ -1,0 +1,104 @@
+﻿body {
+}
+.div-container{
+    border: solid;
+    border-width:2px;
+    border-color:green;
+    width:300px;
+    height:300px;
+}
+.c-head{
+    background-color:lightblue;
+    height:149px;
+   
+    margin:0px;
+}
+.c-body{
+    background-color:lightpink;
+    margin:0px;
+    height:147px;
+    
+}
+.h1{
+    display:inline-block;
+    background-color:blue;
+    height:147px;
+    vertical-align:top;
+    margin-left:-40px;
+    width:65px;
+    margin-right:0px;
+}
+
+.h2 {
+    vertical-align:top;
+    display: inline-block;
+    height:147px;
+    background-color: orange;
+    margin-left:0px;
+    width:220px;
+}
+
+.sample{
+    margin-top:50px;
+    margin-bottom:25px;
+    font-weight:bold;
+}
+.product-container{
+    width:300px;
+    display:inline-block;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+.product-image{
+    display:block;
+    width:100%;
+}
+.product-details{
+    display:block;
+    height:120px;
+}
+.chifuyu{
+    width:300px;
+    object-fit:cover;
+    height:200px;
+    object-position:top;
+}
+.logo{
+    width:50px;
+    height:50px;
+    object-fit:cover;
+    border-radius:25px;
+}
+.details-1{
+    display:inline-block;
+    width:50px; 
+    margin-top:5px;
+    vertical-align:top;
+    margin-left:4px;
+    
+}
+.details-2 {
+    display: inline-block;
+    width: 240px;
+    margin-top: 5px;
+    vertical-align: top;
+    padding-left:8px;
+}
+.title{
+    font-weight:bold;
+    text-align:left;
+    line-height:20px;
+}
+.line{
+    color:dimgray;
+    font-size:14px;
+    margin-top: 12px;
+}
+.detail{
+    margin-top: 8px;
+    color:dimgray;
+    font-size:14px;
+}
+p{
+    font-family:Arial;
+    margin:0px;
+}

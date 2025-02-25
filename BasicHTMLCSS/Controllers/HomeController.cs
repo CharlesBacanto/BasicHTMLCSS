@@ -33,6 +33,11 @@ namespace BasicHTMLCSS.Controllers
         {
             return View();
         }
+        
+        public IActionResult NestedLayout()
+        {
+            return View();
+        }
 
         public IActionResult Privacy()
         {

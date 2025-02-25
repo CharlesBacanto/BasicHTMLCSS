@@ -1,0 +1,70 @@
+﻿body {
+}
+.div-example1{
+    background-color:lightblue;
+    color: black;
+    font-weight:bold;
+    margin-bottom:35px;
+}
+
+.product-preview{
+    width:300px;
+    display:inline-block;
+    vertical-align: top;
+    margin-right:15px;
+}
+.sunraku{
+    width:300px;
+    height:300px;
+    object-fit:cover;
+}
+.pencilgon{
+    object-fit:cover;
+    width:300px;
+    height:300px;
+}
+.oikatzo {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.friend-container{
+    display: inline-block;
+    width:300px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+    margin-right:15px;
+}
+.huh,
+.cat,
+.uia{
+    width:300px;
+    height:300px;
+    object-fit:cover;
+    
+}
+.add-btn{
+    border:none;
+    border-radius:5px;
+    background-color:dodgerblue;
+    color:white;
+    padding:8px 18px;
+}
+.friends{
+    color:dimgray;
+    margin-top:0px;
+}
+.name{
+    font-weight:bold;
+    font-size:15px;
+    margin-bottom:0px;
+}
+.details{
+    margin-left:6px;
+    padding-bottom:8px;
+}
+
+.catbook{
+    margin:20px 0px;
+    font-weight:bold;
+}

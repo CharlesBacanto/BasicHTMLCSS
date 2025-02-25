@@ -1,0 +1,58 @@
+﻿body {
+}
+.sunraku{
+    height:200px;
+    width:300px;
+    object-fit:cover;
+    object-position:top;
+    display:block;
+}
+p{
+    width:300px;
+    margin:0px
+}
+.title{
+    font-weight:bold;
+    margin:5px 5px;
+    display:block;
+}
+
+.line,
+.detail{
+    color:dimgray;
+    
+}
+
+.fname,
+.lname
+{
+    display:inline-block;
+    padding:4px 6px;
+    text-align:left;
+    border-width:1px;
+    border:solid;
+    border-radius:5px;
+}
+.email{
+    border-radius:5px;
+    border:solid;
+    border-width:1px;
+    margin: 5px 0px;
+    display:block;
+    width:400px;
+    padding:4px 6px;
+}
+.submit{
+    width:400px;
+    display:block;
+    border:none;
+    border-radius:5px;
+    color:white;
+    background-color:dodgerblue;
+    padding-top:4px;
+    padding-bottom:4px;
+    font-weight:bold;
+    font-size:18px;
+    text-align:center;
+
+}

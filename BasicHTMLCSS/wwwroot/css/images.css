@@ -1,0 +1,36 @@
+﻿body {
+}
+.sora-cover {
+    width: 150px;
+    height: 150px;
+    object-fit:cover;
+    object-position:center;
+    border:solid;
+    border-color:red;
+    border-width:1px;
+}
+.sora-contain {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    object-position: center;
+    border: solid;
+    border-color: red;
+    border-width: 1px;
+}
+.sora-fill {
+    width: 150px;
+    height: 150px;
+    object-fit: fill;
+    object-position: center;
+    border: solid;
+    border-color: red;
+    border-width: 1px;
+}
+.search-bar{
+    border:solid;
+    font-size:20px;
+    margin-right: 2px;
+    border-radius: 25px 0px 0px 25px;
+    padding:4px 6px;
+}

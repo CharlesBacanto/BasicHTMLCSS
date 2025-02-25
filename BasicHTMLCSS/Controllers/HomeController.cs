@@ -17,6 +17,22 @@ namespace BasicHTMLCSS.Controllers
         {
             return View();
         }
+         public IActionResult FontText()
+        {
+            return View();
+        } 
+        public IActionResult ImagesandTextboxes()
+        {
+            return View();
+        }
+          public IActionResult DisplayProperty()
+        {
+            return View();
+        }
+        public IActionResult Div()
+        {
+            return View();
+        }
 
         public IActionResult Privacy()
         {

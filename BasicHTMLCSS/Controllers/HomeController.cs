@@ -45,6 +45,14 @@ namespace BasicHTMLCSS.Controllers
         public IActionResult CSSGrid()
         {
             return View();
+        } 
+        public IActionResult CSSPosition()
+        {
+            return View();
+        }
+        public IActionResult AbsoluteRelative()
+        {
+            return View();
         }
 
         public IActionResult Privacy()

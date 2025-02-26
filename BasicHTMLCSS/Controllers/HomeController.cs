@@ -33,8 +33,16 @@ namespace BasicHTMLCSS.Controllers
         {
             return View();
         }
+         public IActionResult flexbox()
+        {
+            return View();
+        }
         
         public IActionResult NestedLayout()
+        {
+            return View();
+        }
+        public IActionResult CSSGrid()
         {
             return View();
         }

@@ -1,0 +1,136 @@
+﻿@{
+    ViewData["Title"] = "Flexbox Page";
+}
+<link rel="stylesheet" href="~/css/flexbox.css" />
+<div class="text-center">
+    <h1 class="display-4">Flexbox</h1>
+
+</div>
+<div style="
+    display:flex;
+    flex-direction:row;
+">
+    <div style="background-color:lightblue">div1</div>
+    <div style="background-color:lightpink">div2</div>
+</div>
+
+<div style="
+    display:flex;
+    flex-direction:row;
+    margin-top:35px;
+">
+    <div style="background-color:lightblue">div1 flexible box</div>
+    <div style="background-color:lightpink">div2 <p>Horizontal layout</p></div>
+</div>
+
+<div style="
+    display:flex;
+    flex-direction:row;
+    margin-top:35px;
+">
+    <div style="background-color:lightblue; width:100px;">100px</div>
+    <div style="background-color:lightpink; flex:1;">flex1</div>
+</div>
+
+<div style="
+    display:flex;
+    flex-direction:row;
+    margin-top:35px;
+">
+    <div style="background-color:lightblue; width:100px;">100px</div>
+    <div style="background-color:lightpink; flex:1;">flex1</div>
+    <div style="background-color:lightblue; flex:2;">flex2</div>
+</div>
+
+<p style="margin-top:10px;">start</p>
+<div style="
+    height:70px;
+    border:solid;
+    border-color:black;
+    border-width:1px;
+    display:flex;
+    flex-direction:row;
+    margin-top:35px;
+    justify-content:start;
+">
+    <div style="background-color:lightblue; width:100px;">100px</div>
+    <div style="background-color:lightpink; width:100px;">100px</div>
+    <div style="background-color:lightblue; width:100px">100px</div>
+</div>
+
+<p style="margin-top:10px;">center</p>
+<div style="
+    height:70px;
+    border:solid;
+    border-color:black;
+    border-width:1px;
+    display:flex;
+    flex-direction:row;
+    margin-top:35px;
+    justify-content:center;
+">
+    <div style="background-color:lightblue; width:100px;">100px</div>
+    <div style="background-color:lightpink; width:100px;">100px</div>
+    <div style="background-color:lightblue; width:100px">100px</div>
+</div>
+
+<p style="margin-top:10px;">end</p>
+<div style="
+    height:70px;
+    border:solid;
+    border-color:black;
+    border-width:1px;
+    display:flex;
+    flex-direction:row;
+    margin-top:35px;
+    justify-content:end;
+">
+    <div style="background-color:lightblue; width:100px;">100px</div>
+    <div style="background-color:lightpink; width:100px;">100px</div>
+    <div style="background-color:lightblue; width:100px">100px</div>
+</div>
+
+<p style="margin-top:10px;">space-between</p>
+<div style="
+    height:70px;
+    border:solid;
+    border-color:black;
+    border-width:1px;
+    display:flex;
+    flex-direction:row;
+    margin-top:35px;
+    justify-content:space-between;
+">
+    <div style="background-color:lightblue; width:100px;">100px</div>
+    <div style="background-color:lightpink; width:100px;">100px</div>
+    <div style="background-color:lightblue; width:100px">100px</div>
+</div>
+
+<p style="margin-top:10px;">Alignitems</p>
+<div style="
+    height:70px;
+    border:solid;
+    border-color:black;
+    border-width:1px;
+    display:flex;
+    flex-direction:row;
+    margin-top:35px;
+    justify-content:space-between;
+    align-items:center;
+">
+    <div style="background-color:lightblue; width:100px;">100px</div>
+    <div style="background-color:lightpink; width:100px;">100px</div>
+    <div style="background-color:lightblue; width:100px">100px</div>
+</div>
+
+<div class="header">
+    <div class="left-section">
+        Left
+    </div>
+    <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search"/>
+    </div>
+    <div class="right-section">
+        Right
+    </div>
+</div>
